@@ -1,0 +1,26 @@
+.container {
+    display:flex;
+    align-items:flex-start;
+    width:80%;
+    margin:auto
+}
+
+.Weed1 {
+width:115%
+}
+
+.arrowleft {
+width:50%
+}
+
+.Weed3 {
+width:20%
+}
+
+.Weed4 {
+width:70%
+}
+
+.Weed5 {
+width:60%
+}
