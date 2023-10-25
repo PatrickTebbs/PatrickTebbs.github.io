@@ -28,6 +28,7 @@ body.homepage {
 body.japan-page {
   font-family: "Shojumaru";
   font-size: 180%;
+  color: #FF2E00;
   background-size:cover;
   background-image: url('images/bg-japan.png')
   
@@ -36,6 +37,7 @@ body.japan-page {
 body.america-page {
   font-family: "Black Ops One";
   font-size: 180%;
+  color: #101360;
   background-size:cover;
   background-image: url('images/bg-america.png')
 }
@@ -43,6 +45,7 @@ body.america-page {
 body.germany-page {
   font-family: "Germania One";
   font-size: 180%;
+  color: #B22323;
   background-size: 115%;
   background-image: url('images/bg-germany.png');
 }
@@ -50,6 +53,7 @@ body.germany-page {
 body.britain-page {
   font-family: "Carattere";
   font-size: 200%;
+  color: #0F55DE;
   background-size: cover;
   background-image: url('images/bg-britain.png');
 }
@@ -57,21 +61,25 @@ body.britain-page {
 .germanyname {
   padding-left: 800px;
   margin-top: 100px;
+  color: black;
 }
 
 .japanname {
   padding-left: 34%;
   margin-top: 100px;
+  color: black;
 }
 
 .americaname {
   padding-left: 39%;
   margin-top: 100px;
+  color: black;
 }
 
 .britainname {
   padding-left: 44%;
   margin-top: 100px;
+  color: black;
 }
 
 
@@ -107,6 +115,11 @@ header {
   left:0;
   right:0; */
 }
+
+.navheader {
+  font-family: "Kavivanar";
+}
+
 .logo {
   flex:25%;
 }
