@@ -59,27 +59,31 @@ body.britain-page {
 }
 
 .germanyname {
-  padding-left: 800px;
+  padding-left: 38%;
   margin-top: 100px;
   color: black;
+  font-size: 45px;
 }
 
 .japanname {
-  padding-left: 34%;
+  padding-left: 30%;
   margin-top: 100px;
   color: black;
+  font-size: 35px;
 }
 
 .americaname {
-  padding-left: 39%;
+  padding-left: 33%;
   margin-top: 100px;
   color: black;
+  font-size: 45px;
 }
 
 .britainname {
-  padding-left: 44%;
+  padding-left: 40%;
   margin-top: 100px;
   color: black;
+  font-size: 45px;
 }
 
 
