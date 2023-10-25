@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Kavivanar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Germania+One&family=Shojumaru&display=swap');
 /* 
 font-family: "Black Ops One";
 font-family: "Germania One";
 font-family: "Shojumaru";
+font-family: "Carattera";
+font-family: "Kavivanar";
 */
   * {box-sizing: border-box;}
 html {
@@ -120,6 +123,8 @@ nav li a:hover {
 
 .homepage .flexbox {
   flex-wrap:wrap;
+  font-family: "Kavivanar";
+  font-size: 200%;
 }
 .homepage .flexbox div {
   flex:50%;
@@ -151,12 +156,4 @@ body.japan-page footer a {
 
 .homepage .column {
   padding:12px 32px;
-}
-footer {
-  background-color:#333;
-  padding:30px 60px;
-  position:fixed;
-  bottom:0;
-  left:0;
-  right:0;
 }
