@@ -18,6 +18,29 @@ body.homepage {
 
 body.japan-page {
   font-family: "Shojumaru";
+  font-size: 180%;
+  background-size:cover;
+  background-image: url('images/bg-japan.png')
+  
+}
+
+.japanname {
+display: flex;
+text-align: center;
+}
+
+body.america-page {
+  font-family: "Black Ops One";
+  font-size: 180%;
+  background-size:cover;
+  background-image: url('images/bg-america.png')
+}
+
+body.germany-page {
+  font-family: "Germania One";
+  font-size: 180%;
+  background-size: 115%;
+  background-image: url('images/bg-germany.png');
 }
 
 img {
@@ -82,10 +105,10 @@ nav li a:hover {
   color:rgb(116, 81, 116);
 }
 
-
+/* 
 .border {
   border: 1px solid black;
-}
+} */
 
 .flexbox {
   display:flex;
@@ -93,6 +116,8 @@ nav li a:hover {
   margin:auto;
   margin-top:60px;
 }
+
+
 .homepage .flexbox {
   flex-wrap:wrap;
 }
@@ -116,6 +141,14 @@ body.japan-page footer a {
 .japan-page .column {
   margin:32px;
 }
+.america-page .column {
+  margin:32px;
+}
+
+.germany-page .column {
+  margin:32px;
+}
+
 .homepage .column {
   padding:12px 32px;
 }
