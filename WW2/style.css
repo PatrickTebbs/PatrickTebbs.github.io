@@ -110,8 +110,12 @@ nav li a:hover {
   color:rgb(116, 81, 116);
 }
 
-/* 
-.border {
+
+.wborder {
+  border: 1px solid black;
+}
+
+/* .border {
   border: 1px solid black;
 } */
 
