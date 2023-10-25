@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Kavivanar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Headland+One&family=Kavivanar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Germania+One&family=Shojumaru&display=swap');
 /* 
 font-family: "Black Ops One";
@@ -6,6 +6,7 @@ font-family: "Germania One";
 font-family: "Shojumaru";
 font-family: "Carattere";
 font-family: "Kavivanar";
+font-family: "Headland One";
 */
   * {box-sizing: border-box;}
 html {
@@ -17,6 +18,11 @@ body {
 body.homepage {
   background-image: url('images/bg-home.png');
   background-size:cover;
+}
+
+.homeheader {
+  font-family: "Headland One";
+  font-size: 25px;
 }
 
 body.japan-page {
@@ -47,6 +53,29 @@ body.britain-page {
   background-size: cover;
   background-image: url('images/bg-britain.png');
 }
+
+.germanyname {
+  padding-left: 800px;
+  margin-top: 100px;
+}
+
+.japanname {
+  padding-left: 34%;
+  margin-top: 100px;
+}
+
+.americaname {
+  padding-left: 39%;
+  margin-top: 100px;
+}
+
+.britainname {
+  padding-left: 44%;
+  margin-top: 100px;
+}
+
+
+
 
 img {
   width:100%;
