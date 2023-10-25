@@ -4,7 +4,7 @@
 font-family: "Black Ops One";
 font-family: "Germania One";
 font-family: "Shojumaru";
-font-family: "Carattera";
+font-family: "Carattere";
 font-family: "Kavivanar";
 */
   * {box-sizing: border-box;}
@@ -27,11 +27,6 @@ body.japan-page {
   
 }
 
-.japanname {
-display: flex;
-text-align: center;
-}
-
 body.america-page {
   font-family: "Black Ops One";
   font-size: 180%;
@@ -44,6 +39,13 @@ body.germany-page {
   font-size: 180%;
   background-size: 115%;
   background-image: url('images/bg-germany.png');
+}
+
+body.britain-page {
+  font-family: "Carattere";
+  font-size: 200%;
+  background-size: cover;
+  background-image: url('images/bg-britain.png');
 }
 
 img {
@@ -151,6 +153,10 @@ body.japan-page footer a {
 }
 
 .germany-page .column {
+  margin:32px;
+}
+
+.britain-page .column {
   margin:32px;
 }
 
