@@ -31,6 +31,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items:center;
+  font-size: 24px;
 }
 
 .navigation a {
@@ -42,6 +43,7 @@ img {
 .divider {
   border-bottom: 1px solid black;
   width:100%;
+  
 }
 
 /* First Section with Light Blue Background */
@@ -52,7 +54,8 @@ img {
 }
 
 .content-box {
-  width: 45%;
+  width: 70%;
+  padding: 50px;
 }
 
 /* Second Section with Two Columns */
@@ -118,4 +121,19 @@ footer {
 .address {
   padding: 20px;
   text-align: left;
+}
+
+.right-column2 {
+  
+  
+ 
+  margin-left: 500px;
+  margin-top: 500px;
+  background-color: rgba(142, 177, 208, .5);
+  font-size: 20px;
+  text-align: center;
+}
+
+.p1{
+  font-size: 30px;
 }
