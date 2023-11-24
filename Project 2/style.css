@@ -49,13 +49,13 @@ img {
 /* First Section with Light Blue Background */
 .first-section {
   background-color: rgba(142, 177, 208, .5);
-  padding: 20px;
-  margin-top:20px;
+  padding: 30px;
+  margin-top:10px;
 }
 
 .content-box {
-  width: 70%;
-  padding: 50px;
+  width: 60%;
+  padding: 10px;
 }
 
 /* Second Section with Two Columns */
@@ -135,5 +135,10 @@ footer {
 }
 
 .p1{
-  font-size: 30px;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.mainhead{
+  padding-top: 0px;
 }
