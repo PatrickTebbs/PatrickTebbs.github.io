@@ -67,6 +67,9 @@ img {
 .left-column {
   width: 35%;
 }
+.about-page .left-column {
+   ;
+}
 
 .right-column {
   width: 65%;
@@ -133,8 +136,8 @@ footer {
 }
 
 .right-column2 {
-  margin-right: ;
-  margin-top: 500px;
+  margin-left: 70%;
+  padding-top: 500px;
   background-color: rgba(142, 177, 208, .5);
   font-size: 20px;
   text-align: left;
