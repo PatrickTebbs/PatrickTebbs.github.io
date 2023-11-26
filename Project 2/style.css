@@ -89,6 +89,15 @@ img {
 .divisions-page h1 {
   margin-left:60px;
 }
+
+.about-page h1 {
+  margin-left: 200px;
+}
+
+.about-page h2 {
+  text-align: center;
+}
+
 .gallery {
   display:flex;
   flex-wrap:wrap;
@@ -124,19 +133,21 @@ footer {
 }
 
 .right-column2 {
-  
-  
- 
-  margin-left: 500px;
+  margin-right: ;
   margin-top: 500px;
   background-color: rgba(142, 177, 208, .5);
   font-size: 20px;
-  text-align: center;
+  text-align: left;
+  height: 500px;
+  width: 500px;
 }
 
 .p1{
   font-size: 20px;
   padding-top: 50px;
+}
+.p2 {
+  text-align: left;
 }
 
 .mainhead{
