@@ -73,6 +73,12 @@ img {
  font-size: 25px;
 }
 
+.ourteam-page .left-column {
+  margin: 50px ;
+  width: 60%;
+  font-size: 25px;
+ }
+
 .right-column {
   width: 65%;
   padding-left: 20px;
@@ -103,6 +109,16 @@ img {
   text-align: center;
 }
 
+.ourteam-page h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.ourteam-page h2 {
+  text-align: left;
+  padding-left: 560px;
+  font-size: 35px;
+}
+
 .gallery {
   display:flex;
   flex-wrap:wrap;
@@ -113,6 +129,21 @@ img {
   flex:33%;
   padding-right:120px;
   padding-bottom:100px;
+  text-align:center;
+}
+
+.contact {
+  display:flex;
+  flex-wrap:wrap;
+  width: 90%;
+  margin: 100px;
+}
+
+
+.contact div {
+  flex:33%;
+  padding-right: 20px;
+  padding-bottom: 20px;
   text-align:center;
 }
 
