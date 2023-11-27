@@ -114,7 +114,10 @@ img {
 }
 
 
-
+main {
+  display:flex;
+  flex-direction:column;
+}
 .divisions-page h1 {
   margin-left:60px;
   font-family: "Paytone One";
@@ -220,4 +223,43 @@ footer {
 
 .p1 {
   font-size: 25px;
+}
+.show-mobile {
+  display:none;
+}
+.hide-mobile {
+    display:flex;
+  }
+@media screen and (max-width:768px) {
+  .divider {
+    display:none;
+  }
+  .navigation {
+    padding:30px 0;
+    text-align:center;
+    position:static;
+    flex-direction:row;
+    width: 100%;
+    display:block;
+    /* top: 100px;
+    left: 20px; */
+  }
+  .show-mobile {
+    display:block;
+  }
+  .hide-mobile {
+    display:none;
+  }
+  .content-box {
+    width:100%;
+  }
+  main {
+    flex-direction:column-reverse;
+  }
+  .first-section {
+    margin-top:40px;
+  }
+  .outstream .left-column {
+    width:80%;
+  }
 }
