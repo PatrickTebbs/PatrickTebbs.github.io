@@ -68,7 +68,9 @@ img {
   width: 35%;
 }
 .about-page .left-column {
-   ;
+ margin: 50px ;
+ width: 60%;
+ font-size: 25px;
 }
 
 .right-column {
@@ -94,7 +96,7 @@ img {
 }
 
 .about-page h1 {
-  margin-left: 200px;
+  text-align: center;
 }
 
 .about-page h2 {
