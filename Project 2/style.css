@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Paytone+One&family=Sofia+Sans&display=swap');
+
+
+/* 
+font family: "Kanit";
+font family: "Paytone One";
+font family: "Sofia Sans"; 
+*/
+
+
+
 * {box-sizing: border-box;}
 
 body {
@@ -32,6 +43,7 @@ img {
   flex-direction: column;
   align-items:center;
   font-size: 24px;
+  font-family: "Kanit";
 }
 
 .navigation a {
@@ -51,6 +63,7 @@ img {
   background-color: rgba(142, 177, 208, .5);
   padding: 30px;
   margin-top:10px;
+  font-family: "Sofia Sans";
 }
 
 .content-box {
@@ -62,10 +75,12 @@ img {
 .second-section {
   display: flex;
   padding: 20px;
+  font-family: "Sofia Sans";
 }
 
 .left-column {
   width: 35%;
+  font-family: "Sofia Sans";
 }
 .about-page .left-column {
  margin: 50px ;
@@ -97,26 +112,35 @@ img {
   height: 447px;
   object-fit: cover;
 }
+
+
+
 .divisions-page h1 {
   margin-left:60px;
+  font-family: "Paytone One";
 }
 
 .about-page h1 {
   text-align: center;
+  font-family: "Paytone One";
 }
 
 .about-page h2 {
   text-align: center;
+  font-family: "Paytone One";
 }
 
 .ourteam-page h1 {
   text-align: center;
   font-size: 35px;
+  font-family: "Paytone One";
+  
 }
 .ourteam-page h2 {
   text-align: left;
   padding-left: 560px;
   font-size: 35px;
+  font-family: "Paytone One";
 }
 
 .gallery {
@@ -124,6 +148,8 @@ img {
   flex-wrap:wrap;
   width: 90%;
   margin:auto;
+  font-family: "Kanit";
+  font-size: 30px;
 }
 .gallery div {
   flex:33%;
@@ -188,4 +214,10 @@ footer {
 
 .mainhead{
   padding-top: 0px;
+  font-family: "Paytone One";
+  font-size: 35px;
+}
+
+.p1 {
+  font-size: 25px;
 }
