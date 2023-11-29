@@ -218,6 +218,8 @@ footer {
   padding-top: 0px;
   font-family: "Paytone One";
   font-size: 35px;
+  text-align: center;
+  padding-left: 250px;
 }
 
 .p1 {
@@ -261,4 +263,34 @@ footer {
   .outstream .left-column {
     width:80%;
   }
+
+  .mainhead {
+    padding: 0;
+  }
+
+  .divisions-page h1 {
+    text-align: center;
+    width: 77%;
+
+  }
+
+  .gallery {
+    width: 100%;
+    flex-direction: column;
+    margin: 25px;
+    padding-left: 18%;
+  }
+
+  .ourteam-page h1 {
+    padding-left: 18%;
+    width: 100%;
+
+  }
+
+
+  .ourteam-page .left-column {
+    padding-left: 20%;
+    width: 100%;
+  }
+
 }
