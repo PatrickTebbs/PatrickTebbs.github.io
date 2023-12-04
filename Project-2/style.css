@@ -164,6 +164,18 @@ main {
   font-family: "Paytone One";
 }
 
+.index-page h2 {
+  padding-left: 30px;
+  font-family: "Kanit";
+  font-size: 30px;
+}
+
+.footer-column {
+  font-size: 20px;
+  font-family: "Sofia Sans"
+  
+}
+
 .gallery {
   display:flex;
   flex-wrap:wrap;
