@@ -87,6 +87,12 @@ img {
  font-size: 25px;
 }
 
+.services-page .left-column {
+  margin: 50px ;
+  width: 60%;
+  font-size: 25px;
+ }
+
 .ourteam-page .left-column {
   margin: 50px ;
   width: 60%;
@@ -130,6 +136,19 @@ main {
 .about-page h2 {
   text-align: center;
   font-family: "Paytone One";
+}
+
+.services-page h1 {
+  text-align: center;
+  font-family: "Paytone One";
+  font-size: 50px;
+}
+
+.services-page h2 {
+  text-align: center;
+  font-family: "Kanit";
+  padding: 50px;
+  font-size: 30px;
 }
 
 .ourteam-page h1 {
@@ -230,7 +249,23 @@ footer {
 }
 .hide-mobile {
     display:flex;
-  }
+}
+
+
+.ourteam-page .card {
+  font-family: "Sofia Sans";
+  font-size: 25px;
+}
+
+
+.li {
+  list-style-type: circle;
+  padding-left: 50px;
+}
+
+
+
+
 @media screen and (max-width:768px) {
   .divider {
     display:none;
